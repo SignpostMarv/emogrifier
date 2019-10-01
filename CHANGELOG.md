@@ -12,6 +12,8 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Deprecated
 
 ### Removed
+- Drop the `Emogrifier` class
+  [#774](https://github.com/MyIntervals/emogrifier/pull/774))
 
 ### Fixed
 
