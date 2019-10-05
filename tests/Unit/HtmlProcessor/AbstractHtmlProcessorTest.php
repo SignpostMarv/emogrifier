@@ -375,6 +375,7 @@ class AbstractHtmlProcessorTest extends TestCase
      */
     public function nonXmlSelfClosingTagDataProvider(): array
     {
+        /** @psalm-var array<int, array{0:string, 1:string}> */
         return \array_map(
             /**
              * @psalm-param array{0:string, 1:string} $dataset
@@ -399,6 +400,7 @@ class AbstractHtmlProcessorTest extends TestCase
      */
     public function selfClosingTagDataProvider(): array
     {
+        /** @psalm-var array<int, array{0:string, 1:string}> */
         return \array_map(
             /**
              * @psalm-param array{0:string, 1:string} $dataset

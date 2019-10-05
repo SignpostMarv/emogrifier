@@ -118,6 +118,11 @@
     </RedundantConditionGivenDocblockType>
   </file>
   <file src="tests/Unit/HtmlProcessor/AbstractHtmlProcessorTest.php">
+    <InvalidReturnStatement occurrences="2"/>
+    <InvalidReturnType occurrences="2">
+      <code>array</code>
+      <code>array</code>
+    </InvalidReturnType>
     <RedundantConditionGivenDocblockType occurrences="4">
       <code>assertInstanceOf</code> <!-- retained as per discussion in #537 -->
       <code>assertInstanceOf</code> <!-- retained as per discussion in #537 -->
