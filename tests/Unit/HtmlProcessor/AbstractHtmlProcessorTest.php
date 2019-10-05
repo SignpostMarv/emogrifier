@@ -275,7 +275,7 @@ class AbstractHtmlProcessorTest extends TestCase
     }
 
     /**
-     * @return string[][]
+     * @return array<string, array<int, string>>
      *
      * @psalm-return array<string, array<int, string>>
      */
@@ -419,8 +419,8 @@ class AbstractHtmlProcessorTest extends TestCase
      * Concatenates pairs of datasets (in a similar way to SQL `JOIN`) such that each new dataset consists of a 'row'
      * from a left-hand-side dataset joined with a 'row' from a right-hand-side dataset.
      *
-     * @param string[][] $leftDatasets
-     * @param string[][] $rightDatasets
+     * @param array<string, array<int, string>> $leftDatasets
+     * @param array<string, array<int, string>> $rightDatasets
      *
      * @psalm-param array<string, array<int, string>> $leftDatasets
      * @psalm-param array<string, array<int, string>> $rightDatasets
