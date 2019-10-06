@@ -104,11 +104,6 @@
   </file>
   <!-- NonStaticSelfCall is retained, to be reviewed with #792 -->
   <file src="tests/Support/Traits/AssertCss.php">
-    <MixedArgument occurrences="3">
-      <code>$matches[1]</code>
-      <code>$matches[3]</code>
-      <code>$matches[0]</code>
-    </MixedArgument>
     <NonStaticSelfCall occurrences="1"/>
   </file>
   <file src="tests/Unit/CssInlinerTest.php">
