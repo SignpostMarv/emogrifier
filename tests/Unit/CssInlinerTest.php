@@ -1012,14 +1012,14 @@ class CssInlinerTest extends TestCase
      * Specificity ordering for selectors involving pseudo-classes, attributes and `:not` is covered through the
      * combination of these tests and the equal specificity tests and thus does not require explicit separate testing.
      *
-     * @return string[][]
+     * @return array<string, array<int, string>>
      *
      * @psalm-return array<string, array<int, string>>
      */
     public function differentCssSelectorSpecificityDataProvider(): array
     {
         /**
-         * @var string[] Selectors targeting `<span id="text">` with increasing specificity
+         * @var array<string, string> Selectors targeting `<span id="text">` with increasing specificity
          *
          * @psalm-var array<string, string>
          */
